@@ -115,12 +115,12 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             Text('$_counter',
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 40.0,
                   fontFamily: 'comic sans ms',
                   color: Colors.white,
                 )),
-            Text('vezes',
+            const Text('vezes',
                 style: TextStyle(
                   fontSize: 20.0,
                   fontFamily: 'comic sans ms',
